@@ -15,7 +15,7 @@ body {
     background-size: contain;
 }
 
-.container {
+.card {
     width: 400px;
     height: 600px;
     margin: auto auto;
@@ -29,7 +29,7 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
-.content {
+.card-content {
     height: 100%;
     margin: 15px auto;
     padding: 20px 50px;
@@ -38,21 +38,21 @@ body {
     justify-content: space-between;
 }
 
-.content h2{
+.card-content h2{
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 900;
 }
 
-.content p {
+.card-content p {
     font-size: .8em;
     color: hsl(224, 23%, 55%);
     text-align: center;
     padding: 0px 20px;
 }
 
-.card {
+.label {
     background-color: hsl(225, 100%, 98%);
     display: flex;
     align-items: center;
@@ -62,18 +62,18 @@ body {
     margin: 10px 0;
 }
 
-.card p {
+.label p {
     font-size: .8em;
     margin: 0;
     line-height: 1.7em;
 }
 
-.card a {
+.label a {
     font-size: .7em;
     font-weight: 700;
 }
 
-.card a:active {
+.label a:active {
     color: hsl(245, 55%, 68%);
 }
 
