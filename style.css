@@ -1,0 +1,119 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.img-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    height: 100%;
+    margin: 15px auto;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.content p {
+    font-size: .8em;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.card {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: .8em;
+    margin: 0;
+    line-height: 1.7em;
+}
+
+.card a {
+    font-size: .7em;
+    font-weight: 700;
+}
+
+.card a:active {
+    color: hsl(245, 55%, 68%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    color: hsl(224, 23%, 55%);
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1em;
+    margin: 10px 0;
+}
+
+.btn:active {
+    color: black;
+}
+
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+
+}
+
+.btn-primary:active {
+    background-color: hsl(245, 55%, 68%);
+    color: #fff;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
